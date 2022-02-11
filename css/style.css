@@ -517,6 +517,7 @@ span {
     font-weight: 600;
     line-height: 1.4;
     margin-bottom: 50px;
+    margin-top: 30px;
   }
   .hero__heading{
     font-size: 29px;
@@ -570,6 +571,9 @@ span {
 }
 .hero__inner{
   padding: 0;
+}
+.hero__text{
+  display: none;
 }
 }
 
