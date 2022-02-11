@@ -178,12 +178,28 @@ padding-top: 70px;
   color: var(--primary-color);
   margin-bottom: 15px;
 }
-
-
 .hero__text {
   margin: 15px 0 28px;
   font-size: 16px;
   line-height: 35px;
+}
+span {
+  opacity: 0;
+  animation-name: typewriter;
+  animation-fill-mode: forwards;
+  animation-duration: 0s;
+  animation-delay: calc(var(--animation-order) * var(--animation-delay));
+  
+}
+
+@keyframes typewriter {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 .hero__btn {
   position: relative;
@@ -266,7 +282,9 @@ padding-top: 70px;
   left: 100px;
   animation: openclose 5s ease-in-out infinite;
 }
-
+.hero__par__text{
+  font-weight: bold;
+}
 
 @keyframes openclose {
   0% {
@@ -498,7 +516,7 @@ padding-top: 70px;
     font-size: 15px;
     font-weight: 600;
     line-height: 1.4;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .hero__heading{
     font-size: 29px;
@@ -550,89 +568,9 @@ padding-top: 70px;
   left: 330px;
   animation: openclose 5s ease-in-out infinite;
 }
-
-
-@keyframes openclose {
-  0% {
-    top: 0.2rem;
-    width: 0;
-  }
-  5% {
-    width: 0;
-  }
-  15% {
-    width: 190px;
-  }
-  30% {
-    top: 0.2rem;
-    width: 190px;
-  }
-  33% {
-    top: 0.2rem;
-    width: 0;
-  }
-  35% {
-    top: 0.2rem;
-    width: 0;
-  }
-  38% {
-    top: -2.7rem;
-    
-  }
-  48% {
-    top: -2.7rem;
-    width: 170px;
-  }
-  62% {
-    top: -2.7rem;
-    width: 170px;
-  }
-  66% {
-    top: -2.7rem;
-    width: 0;
-    text-indent: 0;
-  }
-  71% {
-    top: -5.6rem;
-    width: 0;
-    text-indent: 5px;
-  }
-  85.6% {
-    top: -5.6rem;
-    width: 210px;
-  }
-  95% {
-    top: -5.6rem;
-    width: 210px;
-  }
-  98% {
-    top: -5.6rem;
-    width: 0;
-    text-indent: 5px;
-  }
-  100% {
-    top: 0;
-    width: 0;
-    text-indent: 0;
-  }
+.hero__inner{
+  padding: 20px 0;
 }
 }
-span {
-  opacity: 0;
-  animation-name: typewriter;
-  animation-fill-mode: forwards;
-  animation-duration: 0s;
-  animation-delay: calc(var(--animation-order) * var(--animation-delay));
-  
-}
 
-@keyframes typewriter {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
 
