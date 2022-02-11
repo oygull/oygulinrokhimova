@@ -569,7 +569,7 @@ span {
   animation: openclose 5s ease-in-out infinite;
 }
 .hero__inner{
-  padding: 20px 0;
+  padding: 0;
 }
 }
 
