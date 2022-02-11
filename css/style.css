@@ -240,8 +240,9 @@ padding-top: 70px;
 @media screen and (max-width:1020px) {
   .hero {
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
     padding: 50px 0px;
+    overflow-y: scroll;
   }
   .hero__desc{
     padding: 20px 30px;
