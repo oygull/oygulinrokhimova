@@ -14,6 +14,7 @@
   --secondary-color: #eee;
   --version-color: #111;
   --border--color:#eee;
+  --animation-delay: 75ms;
 }
 .dark{
   --primary-color:#8b87ff;
@@ -168,19 +169,17 @@ padding-top: 70px;
   border-radius: 30px;
   box-shadow: 0 0 7px rgb(0 0 0 / 90%);
 }
-.hero__heading {
+.hero__heading{
   font-size: 51px;
   line-height: 62px;
   font-weight: 700;
   margin: 18px 0 10px;
   font-family: var(--second-font);
   color: var(--primary-color);
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
-.hero__heading span{
-  padding-left: 20px;
-  color: var(--text-color);
-}
+
+
 .hero__text {
   margin: 15px 0 28px;
   font-size: 16px;
@@ -236,7 +235,103 @@ padding-top: 70px;
 .hero__btn:hover{
   color: #fff;
 }
+/* Developer */
 
+.hero__par {
+  color: var(--text-color);
+  font-family: tahoma;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.4;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+}
+
+.hero__par span {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.message {
+  background-color: var(--primary-color);
+  color: #fff;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  top: 0.2rem;
+  left: 100px;
+  animation: openclose 5s ease-in-out infinite;
+}
+
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 230px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -2.7rem;
+    
+  }
+  48% {
+    top: -2.7rem;
+    width: 190px;
+  }
+  62% {
+    top: -2.7rem;
+    width: 190px;
+  }
+  66% {
+    top: -2.7rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -5.6rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  85.6% {
+    top: -5.6rem;
+    width: 285px;
+  }
+  95% {
+    top: -5.6rem;
+    width: 285px;
+  }
+  98% {
+    top: -5.6rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
 @media screen and (max-width:1020px) {
   .hero {
     width: 100vw;
@@ -294,6 +389,102 @@ padding-top: 70px;
   .hover-item{
     display: none;
   }
+    /* Developer */
+
+.hero__par {
+  color: var(--text-color);
+  font-family: tahoma;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.4;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+  right: 100px
+}
+
+.hero__par span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.message {
+  background-color: var(--primary-color);
+  color: #fff;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  top: 0.2rem;
+  left: 330px;
+  animation: openclose 5s ease-in-out infinite;
+}
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 190px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 190px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -2.7rem;
+    
+  }
+  48% {
+    top: -2.7rem;
+    width: 180px;
+  }
+  62% {
+    top: -2.7rem;
+    width: 180px;
+  }
+  66% {
+    top: -2.7rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -5.6rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  85.6% {
+    top: -5.6rem;
+    width: 230px;
+  }
+  95% {
+    top: -5.6rem;
+    width: 230px;
+  }
+  98% {
+    top: -5.6rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
 }
 @media screen and (max-width:	540px) {
   .hero__desc{
@@ -324,6 +515,123 @@ padding-top: 70px;
   }
   .nav__link .bx{
     font-size: 22px;
+  }
+
+  /* Developer */
+
+.hero__par {
+  color: var(--text-color);
+  font-family: tahoma;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.4;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+  right: 100px
+}
+
+.hero__par span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.message {
+  background-color: var(--primary-color);
+  color: #fff;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  top: 0.2rem;
+  left: 330px;
+  animation: openclose 5s ease-in-out infinite;
+}
+
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 190px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 190px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -2.7rem;
+    
+  }
+  48% {
+    top: -2.7rem;
+    width: 170px;
+  }
+  62% {
+    top: -2.7rem;
+    width: 170px;
+  }
+  66% {
+    top: -2.7rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -5.6rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  85.6% {
+    top: -5.6rem;
+    width: 210px;
+  }
+  95% {
+    top: -5.6rem;
+    width: 210px;
+  }
+  98% {
+    top: -5.6rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
+}
+span {
+  opacity: 0;
+  animation-name: typewriter;
+  animation-fill-mode: forwards;
+  animation-duration: 0s;
+  animation-delay: calc(var(--animation-order) * var(--animation-delay));
+  
+}
+
+@keyframes typewriter {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
 
