@@ -43,7 +43,14 @@ for (let i = 0; i < sentences.length; i++) {
   sentence.innerHTML = newContent;
 }
 
+function onHover()
+{
+    $("#news").attr('src', 'images/myphoto2.jpeg');
+}
 
-
+function offHover()
+{
+    $("#news").attr('src', 'images/myphoto.jpeg');
+}
 
 
