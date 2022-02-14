@@ -368,6 +368,7 @@ img{
   padding: 20px 30px 25px 40px;
   border-radius: 5px;
   border: 1px solid  var(--secondary-color);
+  height: 160px;
 }
 .course__mark{
   font-size: 40px;
@@ -378,7 +379,7 @@ img{
 }
 .course__mark span{
   position: relative;
-  bottom: 10px;
+  bottom: 8px;
   font-weight: bold;
   font-size: 33px;
   font-weight: 300;
