@@ -2,7 +2,7 @@
 let elVersionBtn = document.getElementById('versionBtn');
 
 elVersionBtn.addEventListener('click', function(){
-  document.body.classList.toggle('dark');
+  document.body.classList.toggle('light');
   document.getElementById('versionBx').classList.toggle('bxs-sun')
 })
 
@@ -69,7 +69,7 @@ ScrollReveal().reveal('.portfolio__item',{
   distance: '150px',
   scale: '0.5',
   reset: true,
-  delay:500
+  delay:100
 }
 );
 ScrollReveal().reveal('.blog__item',{
@@ -111,6 +111,15 @@ ScrollReveal().reveal('.hero__heading',{
   scale: '0.5',
   opacity: '0.5',
   reset: true
+}
+);
+ScrollReveal().reveal('.skills__item',{
+  origin:'bottom',
+  duration: 1000,
+  distance: '150px',
+  scale: '0.5',
+  reset: true,
+  delay:500
 }
 );
 

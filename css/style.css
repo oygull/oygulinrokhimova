@@ -7,7 +7,17 @@
   box-sizing: border-box;
 }
 :root{
-  --primary-color: #a0abec;
+  --primary-color:#8b87ff;
+  --bg-color:#111;
+  --text-color: #fff;
+  --secondary-color: #2b2a2a;
+  --version-color:#2b2a2a;
+  --border--color:#505050;
+  --input-color:#2b2a2a;
+  --input-border:transparent;
+}
+.light{
+  --primary-color: #73b626;
   --bg-color:#fff;
   --text-color:#666;
   --second-font:'Public Sans', sans-serif;
@@ -18,16 +28,8 @@
   --input-color:#fff;
   --input-border:#ddd;
 }
-.dark{
-  --primary-color:#8b87ff;
-  --bg-color:#111;
-  --text-color: #fff;
-  --secondary-color: #2b2a2a;
-  --version-color:#2b2a2a;
-  --border--color:#505050;
-  --input-color:#2b2a2a;
-  --input-border:transparent;
-}
+
+
 body {
   min-height: 100vh;
   display: flex;
@@ -561,6 +563,113 @@ padding-top: 70px;
 .courses__box:hover{
   outline: 4px solid var(--primary-color);
 }
+/* My Skills */
+
+.skills{
+  padding-top: 50px;
+}
+.pie-chart {
+	background:
+		radial-gradient(
+			circle closest-side,
+			var(--bg-color) 0,
+			var(--bg-color) 52.8%,
+			transparent 52.8%,
+			transparent 60%,
+			var(--bg-color) 0
+		),
+		conic-gradient(
+			var(--primary-color) 0,
+      var(--primary-color) 93%,
+			#d4d4d4 0,
+			#d4d4d4 100%
+	);
+	position: relative;
+	min-height: 300px;
+}
+.skill__name{
+  font-family: var(--second-font);
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+.skills__item{
+  margin-bottom: 30px;
+}
+
+.pie-chart.html{
+	background:
+		radial-gradient(
+			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
+		),
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 53%,	#d4d4d4 0,#d4d4d4 100%
+	);
+}
+.pie-chart.css{
+	background:
+		radial-gradient(
+			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
+		),
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 66%,	#d4d4d4 0,#d4d4d4 100%
+	);
+}
+.pie-chart.javascript{
+	background:
+		radial-gradient(
+			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
+		),
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 3%,	#d4d4d4 0,#d4d4d4 100%
+	);
+}
+.pie-chart.php{
+	background:
+		radial-gradient(
+			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
+		),
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 0%,	#d4d4d4 0,#d4d4d4 100%
+	);
+}
+.pie-chart.wordpress{
+	background:
+		radial-gradient(
+			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
+		),
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 0%,	#d4d4d4 0,#d4d4d4 100%
+	);
+}
+.pie-chart.react{
+	background:
+		radial-gradient(
+			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
+		),
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 3%,	#d4d4d4 0,#d4d4d4 100%
+	);
+}
+.pie-chart.json{
+	background:
+		radial-gradient(
+			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
+		),
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 93%,	#d4d4d4 0,#d4d4d4 100%
+	);
+}
+.pie-chart.sass{
+	background:
+		radial-gradient(
+			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
+		),
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 38%,	#d4d4d4 0,#d4d4d4 100%
+	);
+}
+.pie-chart .caption-inside{
+  font-size:40px;
+  position:absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+
 
 /* Portfolio */
 
