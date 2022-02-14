@@ -69,13 +69,17 @@ img{
   border-radius: 50%;
   padding: 12px;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 .nav__item:hover{
   background-color: var(--primary-color);
 }
 .nav__link {
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 26px;
   color: var(--text-color);
   position: relative;
@@ -96,12 +100,15 @@ img{
 }
 .hover-item.portfolio{
   left: -140px;
+  top: -12px;
 }
 .hover-item.education{
-  left: -160px;
+  left: -90px;
+  top: -12px;
 }
 .hover-item.contact{
   left: -130px;
+  top: -12px;
 }
 .nav__item:hover .hover-item{
   opacity: 1;
@@ -173,7 +180,10 @@ padding-top: 70px;
   border-radius: 30px;
   box-shadow: 0 0 7px rgb(0 0 0 / 90%);
 }
-
+.imgbox{
+  width: 100%;
+  height: 100%;
+}
 .hero__heading{
   font-size: 51px;
   line-height: 62px;
@@ -222,6 +232,8 @@ span {
   background-color: transparent;
   border: 2px solid var(--primary-color);
   overflow: hidden;
+  width: 240px;
+  text-decoration: none;
 }
 .hero__btn span{
   position: absolute;

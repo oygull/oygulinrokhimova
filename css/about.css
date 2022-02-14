@@ -31,6 +31,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
+  margin-bottom: 100px;
 }
 .container{
   width: 90%;
@@ -103,7 +104,7 @@ img{
   left: -140px;
 }
 .hover-item.education{
-  left: -160px;
+  left: -90px;
 }
 .hover-item.contact{
   left: -130px;
@@ -246,6 +247,118 @@ img{
 .cv__btn:hover{
   color: #fff;
 }
+
+/* Experience & Education */
+
+
+.experience {
+  padding: 50px 0px;
+}
+.experience__heading {
+  font-size: 26px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: var(--second-font);
+}
+.experience__item {
+  margin-bottom: 50px;
+}
+.experience__img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experience__img span{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 20px;
+}
+.line {
+  height: 70px;
+  width: 1px;
+  background-color: var(--border--color);
+}
+.experience__desc {
+  padding: 0px 20px;
+}
+.experience__time {
+  background-color: var(--border--color);
+  font-size: 12px;
+  padding: 4px 10px;
+  display: inline-block;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.experience__title {
+  font-size: 18px;
+  margin: 7px 0 10px;
+  font-family: var(--second-font);
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.experience__text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.education__item {
+  margin-bottom: 50px;
+}
+.education__img span{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 20px;
+}
+.education__img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.education__desc {
+  font-weight: 500;
+  line-height: 1.6;
+}
+.education__time {
+  background-color: var(--border--color);
+  font-size: 12px;
+  padding: 4px 10px;
+  display: inline-block;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.education__title {
+  font-size: 18px;
+  margin: 7px 0 10px;
+  font-family: var(--second-font);
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.education__text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+}
 @media screen and (max-width:1020px){
   .site-nav {
     width: 100%;
@@ -273,5 +386,8 @@ img{
   }
   .nav__link .bx{
     font-size: 22px;
+  }
+  .about__heading{
+    font-size: 35px;
   }
 }

@@ -1,5 +1,4 @@
 
-
 let elVersionBtn = document.getElementById('versionBtn');
 
 elVersionBtn.addEventListener('click', function(){

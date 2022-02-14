@@ -35,6 +35,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
+  margin-bottom: 100px;
 }
 .container{
   width: 90%;
@@ -107,7 +108,7 @@ img{
   left: -140px;
 }
 .hover-item.education{
-  left: -160px;
+  left: -90px;
 }
 .hover-item.contact{
   left: -130px;
@@ -360,5 +361,14 @@ img{
   }
   .nav__link .bx{
     font-size: 22px;
+  }
+  .cotact__heading{
+    font-size: 35px;
+  }
+  .socials__list{
+    margin-bottom: 30px;
+  }
+  .contact__form{
+    padding: 0px ;
   }
 }
