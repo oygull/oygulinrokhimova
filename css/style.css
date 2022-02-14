@@ -237,7 +237,7 @@ span {
 }
 .hero__btn span{
   position: absolute;
-  display: inline-block;
+  display: flex;
   width: 55px;
   height: 55px;
   background-color: var(--primary-color);
@@ -247,7 +247,8 @@ span {
   font-size: 36px;
   font-weight: bold;
   color: #fff;
-  padding: 5px;
+  justify-content: center;
+  align-items: center;
 }
 .hero__btn::after{
   content: '';
@@ -592,6 +593,12 @@ span {
 }
 .hero__text{
   display: none;
+}
+.hero__btn{
+  width: 220px;
+  padding: 16px 60px 16px 25px;
+  font-size: 14px;
+  margin: 30px auto;
 }
 }
 

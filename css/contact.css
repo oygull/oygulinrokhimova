@@ -371,4 +371,11 @@ img{
   .contact__form{
     padding: 0px ;
   }
+  .contact__btn{
+    width: 220px;
+    padding: 16px 60px 16px 25px;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+ 
 }
