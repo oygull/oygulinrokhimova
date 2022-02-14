@@ -1213,6 +1213,12 @@ body{
 .course__title{
   font-size: 14px;
 }
+.hero__text{
+  font-size: 18px;
+}
+.caption-inside{
+  font-size: 20px;
+}
 }
 
 
