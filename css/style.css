@@ -1027,7 +1027,7 @@ padding-top: 70px;
     display: none;
   }
   .site-nav {
-    width: 100%;
+    width: 100vw;
     height: 100px;
     bottom: 0;
     left: 0;
@@ -1214,10 +1214,10 @@ body{
   font-size: 14px;
 }
 .hero__text{
-  font-size: 18px;
+  font-size: 16px;
 }
 .caption-inside{
-  font-size: 20px;
+  font-size: 18px;
 }
 }
 
