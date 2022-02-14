@@ -21,27 +21,7 @@ window.addEventListener("load", (event) => {
   }
 });
 
-// Text
 
-let sentences = document.querySelectorAll('.sentence');
-let characterCount = 0;
-
-for (let i = 0; i < sentences.length; i++) {
-  let sentence = sentences[i];
-  let newContent = '';
-
-  for (let j = 0; j < sentence.textContent.length; j++) {
-    let substring = sentence.textContent.substr(j, 1);
-
-    if (substring !== " ") {
-      newContent += `<span style="--animation-order: ${characterCount};">${substring}</span>`;
-    } else {
-      newContent += substring;
-    }
-    characterCount++;
-  }
-  sentence.innerHTML = newContent;
-}
 
 ScrollReveal().reveal('.heading',{
   origin:'top',
@@ -117,6 +97,23 @@ ScrollReveal().reveal('.contact__desc',{
   reset: true
 }
 );
+ScrollReveal().reveal('.hero__img',{
+  origin:'left',
+  duration: 1000,
+  scale: '0.5',
+  opacity: '0.5',
+  reset: true
+}
+);
+ScrollReveal().reveal('.hero__heading',{
+  origin:'top',
+  duration: 1000,
+  scale: '0.5',
+  opacity: '0.5',
+  reset: true
+}
+);
+
 
 
 

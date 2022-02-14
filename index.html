@@ -62,19 +62,13 @@
       <div class="hero__desc col-xs-12 col-md-7">
         <div>
           <h1 class="hero__heading">Oygul Ibrokhimova</h1>
-          <!-- <h1 class="hero__heading" id ="test"></h1> -->
         </div>
    
-        <h2 class="hero__par">
-          <span class="hero__par__text">I am</span>
-          <div class="message">
-            <div class="word1">Developer</div>
-            <div class="word2">Designer</div>
-            <div class="word3">Financier</div>
-          </div>
-        </h2>
+        <div class="header-area">
+          <h2 class="hero__subtitle" >I'm <span class="animation-span"></span></h2>
+        </div>
 
-        <p class="sentence hero__text">I'm web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me. </p>
+        <p class="hero__text">I'm web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me. </p>
         <a href="about.html" class="hero__btn">More about me <span><i class='bx bx-right-arrow-alt'></i></span></a>
       </div>
     </div>
@@ -504,10 +498,22 @@
   </div>
  </section>
 
+ 
 <script src="https://unpkg.com/scrollreveal"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/main.js"></script>
-
+<script src="js/typed.js"></script>
+<script>
+  var typed = new Typed('.animation-span', {
+    strings: [
+      'Front-end Developer',
+      'Accountant',
+      'Web Designer'
+    ],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: 100
+  });
+</script>
 </body>
 
 </html>
