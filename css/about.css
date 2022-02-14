@@ -360,6 +360,37 @@ img{
   font-weight: 500;
   line-height: 1.6;
 }
+.courses__item {
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+.courses__box{
+  padding: 20px 30px 25px 40px;
+  border-radius: 5px;
+  border: 1px solid  var(--secondary-color);
+}
+.course__mark{
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--primary-color);
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.course__mark span{
+  position: relative;
+  bottom: 10px;
+  font-weight: bold;
+  font-size: 33px;
+  font-weight: 300;
+  margin-left: 3px;
+}
+.course__title{
+  font-size: 18px;
+  font-weight: 500;
+}
+.courses__box:hover{
+  outline: 4px solid var(--primary-color);
+}
 @media screen and (max-width:1020px){
   .site-nav {
     width: 100%;

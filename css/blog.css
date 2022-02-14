@@ -197,6 +197,7 @@ img{
 }
 .blog__box:hover .blog__heading{
   color: var(--primary-color);
+  text-decoration: underline;
 }
 
 @media screen and (max-width:1020px){

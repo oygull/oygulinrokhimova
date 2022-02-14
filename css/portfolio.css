@@ -172,7 +172,7 @@ img{
 }
 
 .col{
-  width: calc(25% - 2rem);
+  width: calc(33% - 2rem);
   margin: 1rem;
   margin-bottom: 30px;
   cursor: pointer;
@@ -242,16 +242,12 @@ perspective: 1000px;
   background-color: #fff;
   color: #2b2a2a;
   font-size: 20px;
-  padding: 10px 20px;
+  padding: 8px 10px;
   border-radius: 20px;
   transition: all 0.8s ease;
   font-family: var(--second-font);
 }
-.porfolio__link span .bx{
-  color: #ff85db;
-  position: relative;
- top: 3px;
-}
+
 .porfolio__link:hover{
   transform: translate(0,-10px);
  opacity: 0.9;
