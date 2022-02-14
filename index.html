@@ -142,16 +142,17 @@
         <ul class="courses__list row">
           <li class="courses__item col-xs-6">
             <div class="courses__box">
+              <p class="course__mark">74 <span>+</span></p>
+            <h3 class="course__title">Foundations of Economics</h3>
+            </div>
+          </li> 
+          <li class="courses__item col-xs-6">
+            <div class="courses__box">
               <p class="course__mark">71 <span>+</span></p>
               <h3 class="course__title">Introduction to Information and Web Technologies</h3>
             </div>
           </li>
-          <li class="courses__item col-xs-6">
-            <div class="courses__box">
-              <p class="course__mark">74 <span>+</span></p>
-            <h3 class="course__title">Foundations of Economics</h3>
-            </div>
-          </li>
+       
           <li class="courses__item col-xs-6">
             <div class="courses__box">
               <p class="course__mark">58<span>+</span></p>
@@ -231,168 +232,141 @@
 
 <!-- Portfolio -->
 <section id="portfolio" class="portfolio">
-  <div class="wrapper">
+  <div class="container">
     <h2 class="heading">My <span>Portfolio</span></h2>
-    <div class="row">
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/alex-spancer.png);" >
-        
-            </div>
-            <div class="back">
-              <div class="inner">
-                <h3 class="project__title">Alex Spancer</h3>
-                <a target='_blank' href="https://alexspencer.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+    <ul class="categories__list row center">
+      <li class="categories__name active-category"> <a class="category__link" href=""><span><i class='bx bx-grid-small' ></i></span> All </a> </li>
+      <li class="categories__name"><a class="category__link" href=""> <span><i class='bx bxl-css3'></i></span> HTML & CSS</a></li>
+      <li class="categories__name"><a class="category__link" href=""><span><i class='bx bxl-javascript' ></i></span> Java Script</a></li>
+      <li class="categories__name"><a class="category__link" href=""> <span><i class='bx bxl-react' ></i></span> React</a></li>
+    </ul>
+
+    <ul class="portfolio__list row">
+      <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+        <a href="https://alexspencer.netlify.app" class="portfilo__link">
+          <div class="potfolio__imgbox">
+           <img src="images/alex-spancer.png" alt="alex-spancer">
           </div>
-        </div>
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/arun-ray.png);">
-            </div>
-            <div class="back">
-              <div class="inner">
-                <h3 class="project__title">Arun Ray</h3>
-                <a target='_blank' href="https://arun-ray.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                              <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+          <div class="portfolio__desc">
+            <h2 class="portfolio__name">Alex Spancer</h2>
+            <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
           </div>
-        </div>
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/clerksy.png);">
-            </div>
-            <div class="back">
-              <div class="inner">
-                  <h3 class="project__title">Clerksy</h3>
-                <a target='_blank' href="https://clerksyweb.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                              <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+         </a></li>
+      <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+        <a href="https://arun-ray.netlify.app" class="portfilo__link">
+          <div class="potfolio__imgbox">
+            <img src="images/arun-ray.png" alt="arun-ray">
           </div>
-        </div>
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/coffee-roasters.png);">
-            </div>
-            <div class="back">
-              <div class="inner">
-                  <h3 class="project__title">Coffee Roasters</h3>
-                <a target='_blank' href="https://coffeeroastersweb.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                              <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+          <div class="portfolio__desc">
+            <h2 class="portfolio__name">Arun Ray</h2>
+            <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
           </div>
-        </div>
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/executive-study.png);">
-            </div>
-            <div class="back">
-              <div class="inner">
-                  <h3 class="project__title">Executive Study</h3>
-                <a target='_blank' href="https://executivestudywebb.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                              <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+         </a></li>
+      <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+        <a href="https://clerksyweb.netlify.app" class="portfilo__link">
+          <div class="potfolio__imgbox">
+            <img src="images/clerksy.png" alt="clerksy">
           </div>
-        </div>
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/folio.png);">
-            </div>
-            <div class="back">
-              <div class="inner">
-                  <h3 class="project__title">Folio</h3>
-                <a target='_blank' href="https://foliogit.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                              <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+          <div class="portfolio__desc">
+            <h2 class="portfolio__name">Clerkcy</h2>
+            <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
           </div>
-        </div>
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/funden.png);">
-            </div>
-            <div class="back">
-              <div class="inner">
-                  <h3 class="project__title">Funden</h3>
-                <a target='_blank' href="https://funden.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                              <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+         </a></li>
+      <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+        <a href="https://coffeeroastersweb.netlify.app" class="portfilo__link">
+          <div class="potfolio__imgbox">
+            <img src="images/coffee-roasters.png" alt="coffee-roasters">
           </div>
-        </div>
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/mirage.png);">
-            </div>
-            <div class="back">
-              <div class="inner">
-                  <h3 class="project__title">Mirage</h3>
-                <a target='_blank' href="https://funden.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                              <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+          <div class="portfolio__desc">
+            <h2 class="portfolio__name">Coffee Roasters</h2>
+            <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
           </div>
-        </div>
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/litho.png);">
-            </div>
-            <div class="back">
-              <div class="inner">
-                  <h3 class="project__title">Litho</h3>
-                <a target='_blank' href="https://lithoweb.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                              <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+         </a></li>
+      <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+        <a href="https://executivestudywebb.netlify.app" class="portfilo__link">
+          <div class="potfolio__imgbox">
+            <img src="images/executive-study.png" alt="executive-study">
           </div>
-        </div>
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/product.png);">
-            </div>
-            <div class="back">
-              <div class="inner">
-                  <h3 class="project__title">Product</h3>
-                <a target='_blank' href="https://myproductweb.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                              <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+          <div class="portfolio__desc">
+            <h2 class="portfolio__name">Executive Study</h2>
+            <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
           </div>
-        </div>
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/myteam.png);">
-            </div>
-            <div class="back">
-              <div class="inner">
-                  <h3 class="project__title">My Team</h3>
-                <a target='_blank' href="https://myteamgirls.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                              <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+         </a></li>
+      <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+        <a href="https://foliogit.netlify.app" class="portfilo__link">
+          <div class="potfolio__imgbox">
+            <img src="images/folio.png" alt="folio">
           </div>
-        </div>
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url(images/stark.png);">
-            </div>
-            <div class="back">
-              <div class="inner">
-                  <h3 class="project__title">Stark</h3>
-                <a target='_blank' href="https://stark-web.netlify.app" class="porfolio__link"><i class='bx bxl-netlify' ></i></a>
-                              <a target='_blank' href="" class="porfolio__link"><i class='bx bxl-github' ></i></a>
-              </div>
-            </div>
+          <div class="portfolio__desc">
+            <h2 class="portfolio__name">Folio</h2>
+            <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
           </div>
-        </div>
-      </div>
-   </div>
+         </a></li>
+      <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+        <a href="https://funden.netlify.app" class="portfilo__link">
+          <div class="potfolio__imgbox">
+            <img src="images/funden.png" alt="funden">
+          </div>
+          <div class="portfolio__desc">
+            <h2 class="portfolio__name">Funden</h2>
+            <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
+          </div>
+         </a></li>
+      <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+        <a href="https://lithoweb.netlify.app" class="portfilo__link">
+          <div class="potfolio__imgbox">
+            <img src="images/litho.png" alt="litho">
+          </div>
+          <div class="portfolio__desc">
+            <h2 class="portfolio__name">Litho</h2>
+            <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
+          </div>
+         </a></li>
+      <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+        <a href="https://miragewebv.netlify.app" class="portfilo__link">
+          <div class="potfolio__imgbox">
+            <img src="images/mirage.png" alt="mirage">
+          </div>
+          <div class="portfolio__desc">
+            <h2 class="portfolio__name">Mirage</h2>
+            <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
+          </div>
+         </a></li>
+         <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+          <a href="https://stark-web.netlify.app" class="portfilo__link">
+            <div class="potfolio__imgbox">
+              <img src="images/stark.png" alt="mirage">
+            </div>
+            <div class="portfolio__desc">
+              <h2 class="portfolio__name">Stark</h2>
+              <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
+            </div>
+           </a></li>
+           <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+            <a href="https://myproductweb.netlify.app/" class="portfilo__link">
+              <div class="potfolio__imgbox">
+                <img src="images/product.png" alt="mirage">
+              </div>
+              <div class="portfolio__desc">
+                <h2 class="portfolio__name">Product</h2>
+                <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
+              </div>
+             </a></li>
+             <li class="portfolio__item col-xs-12 col-sm-6 col-md-4">
+              <a href="https://strendweb.netlify.app" class="portfilo__link">
+                <div class="potfolio__imgbox">
+                  <img src="images/strend.png" alt="mirage">
+                </div>
+                <div class="portfolio__desc">
+                  <h2 class="portfolio__name">Strend</h2>
+                  <a class="gitcode" href=""> <span><i class='bx bxl-github' ></i></span> code</a>
+                </div>
+               </a></li>
+    </ul>
+  </div>
+  
+
+  
   
 </section>
 
@@ -530,6 +504,7 @@
   </div>
  </section>
 
+<script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/main.js"></script>
 

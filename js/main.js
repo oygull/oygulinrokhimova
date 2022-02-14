@@ -43,5 +43,80 @@ for (let i = 0; i < sentences.length; i++) {
   sentence.innerHTML = newContent;
 }
 
+ScrollReveal().reveal('.heading',{
+  origin:'top',
+  duration: 1000,
+  distance: '50px',
+  scale: '0.5',
+  reset: true
+}
+);
+ScrollReveal().reveal('.about__info',{
+  origin:'left',
+  duration: 1000,
+  distance: '250px',
+  scale: '0.5',
+  reset: true
+}
+);
+ScrollReveal().reveal('.about__courses',{
+  origin:'right',
+  duration: 1000,
+  distance: '250px',
+  scale: '0.5',
+  reset: true
+}
+);
+ScrollReveal().reveal('.experience__list',{
+  origin:'bottom',
+  duration: 1000,
+  distance: '150px',
+  scale: '0.5',
+  reset: true
+}
+);
+ScrollReveal().reveal('.education__list',{
+  origin:'bottom',
+  duration: 1000,
+  distance: '150px',
+  scale: '0.5',
+  reset: true
+}
+);
+ScrollReveal().reveal('.portfolio__item',{
+  origin:'bottom',
+  duration: 1000,
+  distance: '150px',
+  scale: '0.5',
+  reset: true,
+  delay:500
+}
+);
+ScrollReveal().reveal('.blog__item',{
+  origin:'bottom',
+  duration: 1000,
+  distance: '150px',
+  scale: '0.5',
+  reset: true,
+  delay:500
+}
+);
+ScrollReveal().reveal('.contact__form',{
+  origin:'right',
+  duration: 1000,
+  distance: '250px',
+  scale: '0.5',
+  reset: true
+}
+);
+ScrollReveal().reveal('.contact__desc',{
+  origin:'left',
+  duration: 1000,
+  distance: '250px',
+  scale: '0.5',
+  reset: true
+}
+);
+
 
 
