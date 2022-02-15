@@ -2,7 +2,7 @@
 let elVersionBtn = document.getElementById('versionBtn');
 
 elVersionBtn.addEventListener('click', function(){
-  document.body.classList.toggle('light');
+  document.body.classList.toggle('dark');
   document.getElementById('versionBx').classList.toggle('bxs-sun')
 })
 
