@@ -1173,6 +1173,7 @@ padding-top: 70px;
 }
 .hero__inner{
   padding: 0;
+  padding-top: 40px;
 }
 .hero__text{
   display: none;
@@ -1224,6 +1225,9 @@ body{
 }
 .animation-span{
   padding: 3px 4px;
+}
+.about{
+  padding: 0px 0px 50px 0px;
 }
 }
 
