@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "../../../Downloads/images"
+		},
+		{
+			"name": "oygulinrokhimova",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "oygulinrokhimova"
+	}
+}
