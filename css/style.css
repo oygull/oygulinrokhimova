@@ -1219,6 +1219,12 @@ body{
 .caption-inside{
   font-size: 18px;
 }
+.hero__subtitle{
+  font-size: 18px;
+}
+.animation-span{
+  padding: 3px 4px;
+}
 }
 
 
