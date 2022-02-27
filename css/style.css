@@ -331,6 +331,7 @@ padding-top: 70px;
 /* About Me */
 .about{
   padding: 50px 0px;
+  overflow: hidden;
 }
 
 .heading{
@@ -430,6 +431,7 @@ padding-top: 70px;
 
 .experience {
   padding-top: 50px;
+  overflow: hidden;
 }
 .experience__heading {
   font-size: 26px;
@@ -572,6 +574,7 @@ padding-top: 70px;
 
 .skills{
   padding-top: 50px;
+  overflow: hidden;
 }
 .pie-chart {
 	background:
@@ -680,6 +683,7 @@ padding-top: 70px;
 
 .portfolio{
   padding: 0px 0px 100px 0px;
+  overflow: hidden;
 }
 
 .categories__list{
@@ -829,6 +833,7 @@ padding-top: 70px;
 /* Contact */
 .contact{
   padding: 0px 0px 100px 0px;
+  overflow: hidden;
 }
 
 .cotact__heading{
