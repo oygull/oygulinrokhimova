@@ -125,4 +125,3 @@ ScrollReveal().reveal('.skills__item',{
 
 
 
-

@@ -611,7 +611,7 @@ padding-top: 70px;
 		radial-gradient(
 			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
 		),
-		conic-gradient( var(--primary-color) 0, var(--primary-color) 53%,	#d4d4d4 0,#d4d4d4 100%
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 59%,	#d4d4d4 0,#d4d4d4 100%
 	);
 }
 .pie-chart.css{
@@ -667,7 +667,7 @@ padding-top: 70px;
 		radial-gradient(
 			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
 		),
-		conic-gradient( var(--primary-color) 0, var(--primary-color) 38%,	#d4d4d4 0,#d4d4d4 100%
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 78%,	#d4d4d4 0,#d4d4d4 100%
 	);
 }
 .pie-chart .caption-inside{
