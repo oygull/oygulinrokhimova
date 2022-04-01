@@ -611,7 +611,7 @@ padding-top: 70px;
 		radial-gradient(
 			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
 		),
-		conic-gradient( var(--primary-color) 0, var(--primary-color) 59%,	#d4d4d4 0,#d4d4d4 100%
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 74%,	#d4d4d4 0,#d4d4d4 100%
 	);
 }
 .pie-chart.css{
@@ -627,7 +627,7 @@ padding-top: 70px;
 		radial-gradient(
 			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
 		),
-		conic-gradient( var(--primary-color) 0, var(--primary-color) 3%,	#d4d4d4 0,#d4d4d4 100%
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 43%,	#d4d4d4 0,#d4d4d4 100%
 	);
 }
 .pie-chart.php{
@@ -659,7 +659,7 @@ padding-top: 70px;
 		radial-gradient(
 			circle closest-side,var(--bg-color) 0,	var(--bg-color) 52.8%,transparent 52.8%,transparent 60%,var(--bg-color) 0
 		),
-		conic-gradient( var(--primary-color) 0, var(--primary-color) 93%,	#d4d4d4 0,#d4d4d4 100%
+		conic-gradient( var(--primary-color) 0, var(--primary-color) 13%,	#d4d4d4 0,#d4d4d4 100%
 	);
 }
 .pie-chart.sass{
