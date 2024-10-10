@@ -86,4 +86,9 @@ function renderItems(wrapper, array){
   });
 }
 
-renderItems(portfolio,portfolioArr)
+renderItems(portfolio,portfolioArr);
+
+const filterByCategory = (arr, category) => {
+  return arr.filter(item => item.category === category);
+};
+
