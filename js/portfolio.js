@@ -28,7 +28,7 @@ let portfolioArr= [
     projectName: "MAARI Cosmetics",
     category: "React",
     githubLink: "https://github.com/oygull/maari",
-    netlifyLink: "https://jazzy-alpaca-843389.netlify.app/",
+    netlifyLink: "https://neon-capybara-d90535.netlify.app/",
     projectImg: "images/maari-cosmetics.png"
   },
   {
