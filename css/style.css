@@ -724,7 +724,9 @@ padding-top: 70px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-top:10px solid var(--primary-color);
 }
-
+.categories__name{
+  cursor: pointer;
+}
 .potfolio__imgbox img{
   position: absolute;
   top: 0;

@@ -92,3 +92,33 @@ const filterByCategory = (arr, category) => {
   return arr.filter(item => item.category === category);
 };
 
+const htmlProjects = filterByCategory(portfolioArr, 'HTML&CSS');
+const javaScriptProjects = filterByCategory(portfolioArr, 'JavaScript');
+const reactProducts = filterByCategory(portfolioArr, 'React');
+
+let all = document.getElementById('all')
+let htmlcss = document.getElementById('html&css')
+let javascript = document.getElementById('javascript')
+let react = document.getElementById('react')
+
+function clickElement(element,filteredArr){
+  element.onclick = function() {
+    portfolio.innerHTML= ''
+    renderItems(portfolio,filteredArr);
+  };
+}
+
+clickElement(htmlcss,htmlProjects );
+clickElement(javascript,javaScriptProjects );
+clickElement(react,reactProducts );
+clickElement(all, portfolioArr );
+
+const links = document.querySelectorAll('.categories__name');
+
+
+links.forEach(link => {
+  link.addEventListener('click', function() {
+    links.forEach(link => link.classList.remove('active-category'));
+    this.classList.add('active-category');
+  });
+});
