@@ -17,19 +17,19 @@ let portfolioArr= [
   },
   {
     projectId: 3,
+     projectName: "MAARI Cosmetics",
+    category: "React",
+    githubLink: "https://github.com/oygull/maari",
+    netlifyLink: "https://maari-cosmetics.netlify.app/",
+    projectImg: "images/maari-cosmetics.png"
+  },
+  {
+    projectId: 4,
     projectName: "Freshioweb",
     category: "HTML&CSS",
     githubLink: "https://github.com/oygull/Freshio",
     netlifyLink: "https://freshioweb.netlify.app/",
     projectImg: "images/freshio.png"
-  },
-  {
-    projectId: 4,
-    projectName: "MAARI Cosmetics",
-    category: "React",
-    githubLink: "https://github.com/oygull/maari",
-    netlifyLink: "https://neon-capybara-d90535.netlify.app/",
-    projectImg: "images/maari-cosmetics.png"
   },
   {
     projectId: 5,
