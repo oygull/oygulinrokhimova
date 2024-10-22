@@ -4,7 +4,7 @@ let portfolioArr= [
     projectName: "Case Nova",
     category: "JavaScript",
     githubLink: "https://github.com/oygull/Case-Nova",
-    netlifyLink: "",
+    netlifyLink: "https://case-nova.netlify.app/",
     projectImg: "images/case-nova.png"
   },
   {
