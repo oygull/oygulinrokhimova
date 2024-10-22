@@ -1,13 +1,5 @@
 let portfolioArr= [
   {
-    projectId: 1,
-    projectName: "Baltic Home",
-    category: "React",
-    githubLink: "https://github.com/oygull/Baltic-Home",
-    netlifyLink: "https://baltic-home.netlify.app/",
-    projectImg: "images/baltic-home.png"
-  },
-  {
     projectId: 2,
     projectName: "Case Nova",
     category: "JavaScript",
@@ -30,6 +22,14 @@ let portfolioArr= [
     githubLink: "https://github.com/oygull/Freshio",
     netlifyLink: "https://freshioweb.netlify.app/",
     projectImg: "images/freshio.png"
+  },
+  {
+    projectId: 1,
+    projectName: "Baltic Home",
+    category: "React",
+    githubLink: "https://github.com/oygull/Baltic-Home",
+    netlifyLink: "https://baltic-home.netlify.app/",
+    projectImg: "images/baltic-home.png"
   },
   {
     projectId: 5,
