@@ -13,7 +13,7 @@ let portfolioArr= [
     category: "JavaScript",
     githubLink: "https://github.com/oygull/side-minds",
     netlifyLink: "https://side-minds.netlify.app/",
-    projectImg: "images/maari-cosmetics.png"
+    projectImg: "images/sideminds.png"
   },
   {
     projectId: 3,
