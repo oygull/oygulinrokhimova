@@ -85,7 +85,7 @@ function renderItems(wrapper, array){
           </div>
           <div class="portfolio__desc">
             <h2 class="portfolio__name">${element.projectName}</h2>
-            <a class="gitcode" href="${element.githubLink}"> <span><i class='bx bxl-github' ></i></span> code</a>
+            <a class="gitcode" target="_blank" href="${element.githubLink}"> <span><i class='bx bxl-github' ></i></span> code</a>
           </div>
          </a>
     `
