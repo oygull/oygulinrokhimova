@@ -49,11 +49,11 @@ let portfolioArr= [
   },
   {
     projectId: 6,
-    projectName: "Pizza Menu",
+    projectName: "My Pads",
     category: "JavaScript",
-    githubLink: "https://github.com/oygull/menuJs",
-    netlifyLink: "https://pizzamenujs.netlify.app/",
-    projectImg: "images/pizzaMenu-min.png"
+    githubLink: "",
+    netlifyLink: "https://mypads.netlify.app/",
+    projectImg: "images/myPads.png"
   },
   {
     projectId: 7,
