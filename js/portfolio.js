@@ -21,7 +21,7 @@ let portfolioArr= [
     category: "JavaScript",
     githubLink: "",
     netlifyLink: "https://tymtu.com/landing/dna-recommendations",
-    projectImg: "images/tmtuImg.png"
+    projectImg: "images/tymTu.png"
   },
   {
     projectId: 4,
