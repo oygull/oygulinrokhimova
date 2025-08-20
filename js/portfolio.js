@@ -17,11 +17,11 @@ let portfolioArr= [
   },
   {
     projectId: 3,
-     projectName: "MAARI Cosmetics",
-    category: "React",
-    githubLink: "https://github.com/oygull/maari",
-    netlifyLink: "https://maari-cosmetics.netlify.app/",
-    projectImg: "images/maari-cosmetics.png"
+     projectName: "Tymtu",
+    category: "JavaScript",
+    githubLink: "",
+    netlifyLink: "https://tymtu.com/landing/dna-recommendations",
+    projectImg: "images/tmtuImg.png"
   },
   {
     projectId: 4,
