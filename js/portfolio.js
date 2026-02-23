@@ -57,11 +57,11 @@ let portfolioArr= [
   },
   {
     projectId: 7,
-    projectName: "Calculator",
-    category: "JavaScript",
-    githubLink: "https://github.com/oygull/JsCalculator",
-    netlifyLink: "https://calculatorjss.netlify.app/",
-    projectImg: "images/calculator.png"
+    projectName: "Autobedrijf",
+    category: "HTML&CSS",
+    githubLink: "https://glittering-griffin-3c3629.netlify.app/",
+    netlifyLink: "https://glittering-griffin-3c3629.netlify.app/",
+    projectImg: "images/autobedrijf.png"
   },
   {
     projectId: 8,
